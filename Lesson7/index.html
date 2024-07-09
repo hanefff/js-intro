@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    div.title1 {
+      font-size: 64px;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    .colorBox {
+        width: 64px;
+        height: 64px;
+    }
+</style>
+
+<body>
+    <div class="title1">
+        Ultimate Color Generator
+    </div>
+    <p class="hello-text" id="hello" name="Name">
+        Let's generate some colors!
+    </p>
+
+    <input type="number" id="numberInput" name="pickNumber"/>
+
+    <button id="submitButton" onclick="getInputValue()">
+        Pick colors!
+    </button>
+    <button id="await" onclick="fetchPlaceholder()">
+        Await!
+    </button>
+
+    <ul id="pickedColors">
+    </ul>
+
+    <script src="index.js"></script>
+</body>
+</html>
