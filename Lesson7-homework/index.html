@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    body {
+        background-color: black;
+    }
+
+    div.title1 {
+      font-size: 64px;
+      color: white;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    p, li {
+        color: white;
+    }
+
+    .colorBox {
+        width: 64px;
+        height: 64px;
+    }
+</style>
+
+<body>
+    <div class="title1">
+        Ultimate Weather Forecast
+    </div>
+    <p class="hello-text" id="hello" name="Name">
+        Enter the location and learn what kind of cursy weather you will get
+    </p>
+
+    <input type="text" id="location" name="enterLocation"/>
+
+    <button id="submitButton" onclick="getInputValue()">
+       Show me the weather!
+    </button>
+
+    <ul id="weatherForecast">
+    </ul>
+
+    <script src="index.js"></script>
+</body>
+</html>
