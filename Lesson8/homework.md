@@ -1,0 +1,7 @@
+- Improve the weather forecast app
+  - Show erorrs to the user
+  - Add a button to refresh the weather forecast
+  - Don't erase the past forecasts
+- Add buttons to toggle between Celsius and Fahrenheit
+- Add checkboxes in case the user wants extra information
+- Add forecast length option
